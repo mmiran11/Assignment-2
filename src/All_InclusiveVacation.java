@@ -1,7 +1,7 @@
 
 public class All_InclusiveVacation extends Vacation {
 	protected String brand;
-	protected int rating,  price;
+	protected int rating, price;
 
 	public All_InclusiveVacation() {
 		budget = 1000;
