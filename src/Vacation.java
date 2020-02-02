@@ -3,8 +3,14 @@ public class Vacation {
 	protected int budget;
 	protected String destination;
 	
-	public int Budget(int cost) {
-		
+	public void Budget(int cost) {
+		int difference = cost - budget;
+		if (difference <= 0) {
+			System.out.println("The vacation is $" + (difference * -1) + " under the budget.");
+		}
+		else {
+			System.out.println("The vacation is $" + difference + " over the budget.");
+		}
 	}
 	
 	public String toString() {

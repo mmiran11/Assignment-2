@@ -8,4 +8,7 @@ public class PiecemealVacation extends Vacation {
 		destination = "Jamaica";
 	}
 
+	public @Override String toString() {
+		return "This is the PiecemealVacation class. The budget is " + budget + ", the destination is " + destination + ", the items needed are: a " + items[0] + " that costs $" + costs[0] + ", a " + items[1] + " that costs $" + costs[1] + ", and a " + items[2] + " that costs $" + costs[2]; 
+	}
 }
