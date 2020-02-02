@@ -8,6 +8,6 @@ public class Vacation {
 	}
 	
 	public String toString() {
-		return "This is the Vacation class. Its variables are: " + budget + " and " + destination;
+		return "This is the Vacation class. The budget is " + budget + " and the destination is " + destination;
 	}
 }
