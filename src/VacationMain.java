@@ -6,7 +6,7 @@ public class VacationMain {
 		String[] items = new String [3];
 		int[] costs = new int [3];
 		int budget, rating, price;
-		String destination, brand, answer;
+		String destination, brand;
 		System.out.print("Please enter All-InclusiveVacation's budget: ");
 		budget = scan.nextInt();
 		System.out.print("Please enter All-InclusiveVacation's destination: ");
@@ -34,23 +34,6 @@ public class VacationMain {
 			System.out.print("Please enter " + items[i] + " cost: ");
 			costs[i] = scan.nextInt();
 		}
-//		boolean finished = false;
-//		while(finished == false) {
-//			int i = 0;
-//			System.out.println("Please enter PiecemealVacation's items: ");
-//			items[i] = scan.nextLine();
-//			System.out.print("Please enter " + items[i] + " cost: ");
-//			costs[i] = scan.nextInt();
-//			System.out.print("Have you finished entering all items?: ");
-//			answer = scan.next();
-//			if(answer.equals("yes") || answer.equals("Yes")) {
-//				finished = true;
-//			}
-//			else {
-//				i = (i + 1) ;
-//				finished = false;
-//			}
-//		}
 		PiecemealVacation pieceV = new PiecemealVacation(budget, destination, items, costs);
 		System.out.println();
 		System.out.println(pieceV);
