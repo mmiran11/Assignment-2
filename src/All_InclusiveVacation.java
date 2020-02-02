@@ -20,7 +20,7 @@ public class All_InclusiveVacation extends Vacation {
 	}
 	
 	public @Override String toString() {
-		return "This is the All-InclusiveVacation class. The budget is " + budget + ", the destination is " + destination + ", the brand is " + brand + ", the rating is " + rating + ", and the price is " + price; 
+		return "This is the All-InclusiveVacation class. The budget is $" + budget + ", the destination is " + destination + ", the brand is " + brand + ", the rating is " + rating + ", and the price is $" + price; 
 	}
 
 }
